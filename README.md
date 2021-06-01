@@ -13,6 +13,6 @@ earlier dates.
 
 ## Acknowledgements
 
-This project was based on [https://www.youtube.com/channel/UCBV-JvG9Ubkj7AU6Cxls1Tw](HamScript's)
-video, titled [https://www.youtube.com/watch?v=At_5xYramLk](React Weather App with Hooks and Context | React.js Tutorial 2020).
-The API used for receiving the forecast is [https://openweathermap.org/](OpenWeatherMap).
+This project was based on [HamScript's](https://www.youtube.com/channel/UCBV-JvG9Ubkj7AU6Cxls1Tw)
+video, titled [React Weather App with Hooks and Context | React.js Tutorial 2020](https://www.youtube.com/watch?v=At_5xYramLk).
+The API used for receiving the forecast is [OpenWeatherMap](https://openweathermap.org/).
