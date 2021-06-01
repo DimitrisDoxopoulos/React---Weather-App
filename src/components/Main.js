@@ -19,7 +19,10 @@ const Main = () => {
     const api_call = async e => {
         e.preventDefault()
         const location = e.target.elements.location.value;
-        if (!location) return setError('Please enter the name of the city'), setWeather(null);
+        if (!location) {
+            setWeather(null);
+            return setError('Please enter the name of the city')
+        }
         const API_KEY = '325ca43691c7a61a681c3a688920ba60';
         // The url by its own, started with api. But axios can't know that it is a secure one.
         // This is why we need to ad https:// in front of the url.
