@@ -3,8 +3,8 @@ import { FaGithub, FaFacebook, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => (
     <div className="footer">
-        <p>Developed by: Dimitris Doxopoulos for the purpose of learning ReactJS </p>
         <div className="social">
+        <p>Developed by: Dimitris Doxopoulos</p>
             <a className='social-icon' rel="noopener noreferrer" href="https://github.com/DimitrisDoxopoulos" target='_blank'>
                 <FaGithub />
             </a>
