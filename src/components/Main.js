@@ -29,6 +29,7 @@ const Main = () => {
         // The url by its own, started with api. But axios can't know that it is a secure one.
         // This is why we need to ad https:// in front of the url.
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${process.env.WEATHER_API_KEY}`;
+        console.log(process.env.WEATHER_API_KEY);
         const request = axios.get(url);
         const response = await request;
         setWeather(response.data.main);
